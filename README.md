@@ -20,8 +20,8 @@ msf> load msgrpc [Pass=yourpassword]
 ```
 
 #### 3.Key Design
-
-To enhance the accuracy of information collection, two verification mechanisms were implemented:
+> [!NOTE]\
+> To enhance the accuracy of information collection, two verification mechanisms were implemented:
     Empty File Check
         Detects and excludes empty files to prevent data loss caused by untimely responses.
     Duplicate Collection Check
