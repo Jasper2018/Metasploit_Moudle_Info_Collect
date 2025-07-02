@@ -1,7 +1,7 @@
-Name: ARP Sweep Local Network Discovery
-Module: auxiliary/scanner/discovery/arp_sweep
+   Name: ARP Sweep Local Network Discovery
+ Module: auxiliary/scanner/discovery/arp_sweep
 License: Metasploit Framework License (BSD)
-Rank: Normal
+   Rank: Normal
 
 Provided by:
   belch
