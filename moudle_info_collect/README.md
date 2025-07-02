@@ -7,7 +7,7 @@
 **payload_html_info_collect**:Gathers payload module information(.html).
 
 Overall approach:
-- `Retrieve all moudle name`
+- `Retrieve all single name from moudle`
 - `Get info / info -d for each moudle`
 - `Process in loop and aggregate results`
 - `Output real-time progress information`
