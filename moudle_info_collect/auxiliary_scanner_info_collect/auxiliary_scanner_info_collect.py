@@ -124,7 +124,7 @@ def process_scanners_in_chunks(client, scanners, output_dir, chunk_size=30):
 
 def main():
     # Configuration parameters
-    msf_password = "JC04T8GJ"  # Change to your password
+    msf_password = "your_password"  # Change to your password
     output_directory = "scanners_info"  # Output directory
     
     # Connection verification
