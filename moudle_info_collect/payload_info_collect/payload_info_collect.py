@@ -101,7 +101,7 @@ def process_payloads_in_chunks(client, payloads, output_dir, chunk_size=50):
 
 def main():
     # Configuration parameters
-    msf_password = "password"  # Change to your MSFRPC password
+    msf_password = "your_password"  # Change to your MSFRPC password
     output_directory = "payloads_info"  # Output directory
 
     # Connect to MSF
