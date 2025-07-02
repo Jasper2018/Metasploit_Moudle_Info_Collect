@@ -85,14 +85,14 @@ def process_scanners_in_chunks(client, scanners, output_dir, chunk_size=30):
                     with open(save_path, "w") as f:
                         f.write(info_output)
                     
-                    # Empty file detection
+                    # Check - Empty file detection
                     if os.path.getsize(save_path) < 100:  # Normal info output usually exceeds 100 bytes
                         print(f"[-] File content too short, marking for retry: {module_path}")
                         retry_modules.append(module_path)
                         os.remove(save_path)
                         continue
                     
-                    # New: Detect Name: field occurrences
+                    # Check - Detect Name: field occurrences
                     with open(save_path, "r") as f:
                         content = f.read()
                         name_count = content.count("Name:")
@@ -124,7 +124,7 @@ def process_scanners_in_chunks(client, scanners, output_dir, chunk_size=30):
 
 def main():
     # Configuration parameters
-    msf_password = "JC04T8GJ"  # Change to actual password
+    msf_password = "JC04T8GJ"  # Change to your password
     output_directory = "scanners_info"  # Output directory
     
     # Connection verification
