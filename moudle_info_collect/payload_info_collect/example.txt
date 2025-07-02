@@ -1,1 +1,35 @@
+       Name: HTTP Fetch
+     Module: payload/cmd/linux/http/mips64/meterpreter_reverse_http
+   Platform: Linux
+       Arch: cmd
+Needs Admin: No
+ Total size: 117
+       Rank: Normal
 
+Provided by:
+  Brendan Watters
+  Spencer McIntyre
+  Adam Cammack <adam_cammack@rapid7.com>
+  Brent Cook <brent_cook@rapid7.com>
+  timwr
+
+Basic options:
+Name                Current Setting  Required  Description
+----                ---------------  --------  -----------
+FETCH_COMMAND       CURL             yes       Command to fetch payload (Accepted: CURL, FTP, TFTP, TNFTP, WGET)
+FETCH_DELETE        false            yes       Attempt to delete the binary after execution
+FETCH_FILENAME      GnZFrwKjBv       no        Name to use on remote system when storing payload; cannot contain spaces or slashes
+FETCH_SRVHOST                        no        Local IP to use for serving payload
+FETCH_SRVPORT       8080             yes       Local port to use for serving payload
+FETCH_URIPATH                        no        Local URI to use for serving payload
+FETCH_WRITABLE_DIR  /tmp             yes       Remote writable dir to store payload; cannot contain spaces
+LHOST                                yes       The local listener hostname
+LPORT               8080             yes       The local listener port
+LURI                                 no        The HTTP Path
+
+Description:
+  Fetch and execute a MIPS64 payload from an HTTP server.
+
+
+
+View the full module info with the info -d command.
