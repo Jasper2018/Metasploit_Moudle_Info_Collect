@@ -2,7 +2,7 @@
 ![logo](https://github.com/Jasper2018/metasploit_moudle_info_collect/blob/main/logo.png)
 
 > [!IMPORTANT]\
-> A repository collecting Metasploit module information
+> A repository collecting Metasploit module information, primarily used to gather description text/html data of modules, capable of supporting applications like large language models(LLMs).
 
 ### Configuration
 
