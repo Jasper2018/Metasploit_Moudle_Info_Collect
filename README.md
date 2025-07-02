@@ -1,10 +1,9 @@
 # metasploit_moudle_info_collect
 
-### 🚀 About
 > [!IMPORTANT]\
 > A repository collecting Metasploit module information
 
-### Metasploit
+### Configuration
 
 #### 1.Install Required Packages
 ```bash
