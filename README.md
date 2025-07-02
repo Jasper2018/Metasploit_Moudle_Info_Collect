@@ -1,5 +1,5 @@
 # metasploit_moudle_info_collect
-[![logo](https://github.com/Jasper2018/metasploit_moudle_info_collect/blob/main/logo.png)]
+![logo](https://github.com/Jasper2018/metasploit_moudle_info_collect/blob/main/logo.png)
 
 > [!IMPORTANT]\
 > A repository collecting Metasploit module information
