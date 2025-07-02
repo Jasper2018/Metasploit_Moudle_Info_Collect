@@ -28,5 +28,5 @@ msf> load msgrpc [Pass=yourpassword]
 > 1. **Empty File Check**: Detects and excludes empty files to prevent data loss caused by untimely responses.
 > 2. **Duplicate Collection Check**: Identifies repeated data captures within the same document to reduce redundant processing.
 > 3. **Mitigate connection overload**:
->   - `Collections are processed in batches of 30 entries`
->   - ` A connection reset pause is triggered between batches.`
+>  - `Collections are processed in batches of 30 entries`
+>  - `A connection reset pause is triggered between batches.`
