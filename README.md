@@ -3,9 +3,13 @@ A repository collecting Metasploit module information
 
 ### Metasploit
 
-#### Installation
-##### Install Metasploit
+#### 1.Install Required Packages
+```bash
+# Validated Versions: pymetasploit3-1.0.6
+pip install pymetasploit3 
+```
 
+#### 2.Load msgrpc
 ```
 $ msfconsole
 msf> load msgrpc [Pass=yourpassword]
