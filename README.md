@@ -25,10 +25,8 @@ msf> load msgrpc [Pass=yourpassword]
 #### 3.Key Design
 > [!NOTE]\
 > To enhance the accuracy of information collection, two verification mechanisms were implemented:
-    Empty File Check
-        Detects and excludes empty files to prevent data loss caused by untimely responses.
-    Duplicate Collection Check
-        Identifies repeated data captures within the same document to reduce redundant processing.
-Additionally, to mitigate connection overload:
-    Collections are processed in batches of 30 entries
-    A connection reset pause is triggered between batches.
+> 1. Empty File Check: Detects and excludes empty files to prevent data loss caused by untimely responses.
+> 2. Duplicate Collection Check: Identifies repeated data captures within the same document to reduce redundant processing.
+> 3. Additionally, to mitigate connection overload:
+   - `Collections are processed in batches of 30 entries`
+   - ` A connection reset pause is triggered between batches.`
