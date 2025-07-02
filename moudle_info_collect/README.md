@@ -1,13 +1,13 @@
 **exploit_payload_map_info_collect**: Create mappings between Metasploit exploits and payloads.
 
-Overall approach:
-- `Retrieve all exploits`
-- `Get payloads for each exploit`
-- `Process in loop and aggregate results`
-- `Output real-time progress information`
-
 **auxiliary_scanner_info_collect**: Collects information for auxiliary/scanner modules.
 
 **payload_info_collect**:Gathers payload module information(.txt).
 
 **payload_html_info_collect**:Gathers payload module information(.html).
+
+Overall approach:
+- `Retrieve all moudle name`
+- `Get info / info -d for each moudle`
+- `Process in loop and aggregate results`
+- `Output real-time progress information`
