@@ -1,0 +1,26 @@
+Name: ARP Sweep Local Network Discovery
+Module: auxiliary/scanner/discovery/arp_sweep
+License: Metasploit Framework License (BSD)
+Rank: Normal
+
+Provided by:
+  belch
+
+Check supported:
+  No
+
+Basic options:
+  Name       Current Setting  Required  Description
+  ----       ---------------  --------  -----------
+  INTERFACE                   no        The name of the interface
+  RHOSTS                      yes       The target host(s), see https://docs.metasploit.com/docs/using-metasploit/basics/using-metasploit.html
+  SHOST                       no        Source IP Address
+  SMAC                        no        Source MAC Address
+  THREADS    1                yes       The number of concurrent threads (max one per host)
+  TIMEOUT    5                yes       The number of seconds to wait for new data
+
+Description:
+  Enumerate alive Hosts in local network using ARP requests.
+
+
+View the full module info with the info -d command.
