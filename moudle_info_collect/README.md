@@ -1,4 +1,4 @@
-**exploit_payload_mapping_info_collect.py**: Create mappings between Metasploit exploits and payloads.
+**exploit_payload_map_info_collect**: Create mappings between Metasploit exploits and payloads.
 
 Overall approach:
 - `Retrieve all exploits`
@@ -6,7 +6,6 @@ Overall approach:
 - `Process in loop and aggregate results`
 - `Output real-time progress information`
 
-2. **Duplicate Collection Check**: Identifies repeated data captures within the same document to reduce redundant processing.
-3. **Mitigate connection overload**:
-- `Collections are processed in batches of 30 entries`
-- `A connection reset pause is triggered between batches.`
+**auxiliary_scanner_info_collect**: Collects information for auxiliary/scanner modules.
+
+**payload_info_collect**:Gathers payload module information.
